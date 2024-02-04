@@ -3344,6 +3344,16 @@ div .myindent p{
         font-weight: normal
         }
 
+    .h3 span {
+        max-width:100%;
+        float:right;
+        font-size: 85%;
+        font-style: italic;
+        font-family: Georgia, Serif;
+        color: #333333;
+        font-weight: normal
+        }
+
     h4.uniname{
         font-size:medium;
             letter-spacing: 1px;
