@@ -472,7 +472,7 @@
             domain: '',
             secure: ''
         },
-        defaultOpen: '', //comma separated list of header ids that you want opened by default
+        defaultOpen: 'news', //comma separated list of header ids that you want opened by default
         speed: 'slow', //speed of the slide effect
         bind: 'click', //event to bind to, supports click, dblclick, mouseover and mouseenter
         animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
@@ -517,7 +517,7 @@
             }
         });
         $('.page_collapsible').collapsible({
-            defaultOpen: 'body_section1',
+            defaultOpen: 'news',
             cookieName: 'body2',
             speed: 'slow',
             animateOpen: function (elem, opts) { //replace the standard slideUp with custom function

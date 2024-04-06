@@ -3317,8 +3317,25 @@ div .myindent p{
     }
 
     div .openCloseAll{
-        max-width:100%;
-        text-align: right;
+	    float: left;
+	    position: relative;
+	    left: 46%;
+    }
+
+    div .news{
+    	width:100%;
+    	font-size:75%;
+    }
+
+    div .news-date{
+    	width:20%;
+    	float:left;
+    	font-style: italic;
+    }
+
+    div .news-content{
+    	width:80%;
+    	float:left;
     }
 
     .h3, .h4{

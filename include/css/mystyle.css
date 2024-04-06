@@ -12,6 +12,12 @@
     margin:10px;
 }
 
+div.openCloseAll {
+    float: left;
+    position: relative;
+    left: 46%;
+}
+
 .collapsible,
 .page_collapsible {
     margin: 0;
@@ -37,10 +43,8 @@
     display:block;
     float:right;
     padding:10px;
-}
-
-.collapse-open span {
     background:url(./images/minus.png) center center no-repeat;
+
 }
 
 .collapse-close span {
